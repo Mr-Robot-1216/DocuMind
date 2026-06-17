@@ -1,0 +1,22 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+python-multipart==0.0.20
+
+# LLM / embeddings client
+httpx==0.28.1
+
+# Vector store
+chromadb==0.5.23
+
+# Document parsing
+pdfplumber==0.11.4
+python-docx==1.1.2
+openpyxl==3.1.5
+pandas==2.2.3
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.2
